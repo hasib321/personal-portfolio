@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.top_banner{
+    display: flex;
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half_width h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+.half_width h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.half_width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half_width img{
+    width: 90%;
+   }
+   .half_width p {
+    color: #816969;
+    text-align: justify;
+}
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(to left, rgb(29 14 90), rgb(255 54 128));
+    padding: 10px 35px;
+    border-radius: 7px;
+    color: white;
+}
+.big_dream {
+    display: flex;
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 92px;
+    background-position:right ;
+}
+
+.middle_half_width{
+    width: 50%;
+    padding-left: 5%;
+}
+.middle_half_width h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.middle_half_width h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+.middle_half_width img {
+    width: 90%;
+    margin-bottom: 88px;
+}
+.middle_half_width p {
+    color: #816969;
+    text-align: justify;
+    padding-right: 135px;
+}
+.exprnce h1 {
+    font-size: 40px;
+    margin-left: 66px;
+}
+
+.full_stack{
+   display: flex;
+   background-image: url(image/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position:left;
+}
+.bottom_half_width h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.bottom_half_width h2{
+    font-size: 20px;
+    font-weight: bold;  
+    color: #ffa500;
+}
+.bottom_half_width p{
+    color: #816969;
+}
+.bottom_half_width {
+    padding: 39px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    width: 566px;
+    margin-left: 68px;
+    margin-right: 17px;
+}
+
+#bottom_left{
+    border-left: 8px solid;
+    border-image: linear-gradient(#ff674b,#ff674b);
+    border-image-slice: 1;
+    }
+
+#bottom_right{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    }
+
+    footer p {
+        color: #816969;
+        text-align: center;
+        margin-top: 200px;
+    }
